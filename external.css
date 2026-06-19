@@ -4,9 +4,9 @@
     font-style: oblique;
     text-align: center;
 
-} */
+} */ 
 
-body{
+/* body{
     background-color: black;
 }
 
@@ -28,4 +28,36 @@ h1{
     background-color: blue;
     margin-top: 20px;
     margin-bottom: 20px;
+} */
+
+
+
+.container h3,h4{
+    color: gold;
+    margin-left: 30px;
+    font-size: 15px;
+    text-align: center;
+
 }
+
+.header{
+    color: black;
+    letter-spacing: 3px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+/* #container2 p{
+    color: indigo;
+    font-size: 12px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 800;
+    padding: 20px;
+    margin-left: 20px;
+}
+
+#container2 h3{
+    color: maroon;
+    padding: 20px;
+}  */
