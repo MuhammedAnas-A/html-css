@@ -43,5 +43,39 @@ input{
     border-radius:5px;
 }
 
+.loginbtn{
+    width:100%;
+    padding:12px;
+    background:#1877f2;
+    color:white;
+    border:none;
+    border-radius:5px;
+    font-size:18px;
+    font-weight:bold;
+}
+
+a{
+    display:block;
+    color:#1877f2;
+    margin-top: 10px;
 
 
+}
+
+.createbtn{
+    background:#39a025;
+    color:white;
+    border:none;
+    padding: 20px;
+    border-radius:5px;
+    margin-top:15px;
+    font-weight:bold;
+}
+
+.loginbtn:hover{
+    background:#166fe5;
+}
+
+.createbtn:hover{
+    background:#54b541;
+}
