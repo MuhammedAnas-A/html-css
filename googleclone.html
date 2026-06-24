@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    background-color:#22242A;
+    color:#E2E2E8;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.navebar{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px;
+}
+
+
+.left{
+    display: flex;
+    gap: 20px;
+    
+}
+
+.left h5{
+    font-weight:lighter;
+    font-size: medium;
+    cursor: pointer;
+    
+}
+
+
+.right{
+    display:flex;
+    align-items:center;
+    gap:20px;
+}
+
+.right h5{
+    display: flex;
+    font-weight: lighter;
+    font-size: medium;
+    cursor: pointer;
+
+}
+
+
+
+
+.gif{
+    /* width: 100%;
+    justify-content: center;
+    display: flex;
+    height: 250px; */
+    /* align-items: flex-end; */
+}
+
+
+.one{
+    display: flex;
+    align-items:end;
+    /* background-color: black; */
+    /* width:100% ; */
+    justify-content: center;
+}
+
+
+#add{
+    text-decoration: none;
+    transition-duration: 0.2s;
+}
+#add:hover{
+    text-decoration: underline;
+}
+
+.icon-container{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.icon-container:hover{
+    background-color: #3c4043;
+}
+
+.profile{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.profile:hover{
+    background-color: #4e5154;
+}
+
+.share{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: #2C2E35;
+}
+
+.two{
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 50px;
+    /* background-color: #E2E2E8; */
+    top: 40px;
+    justify-content: center;
+
+
+}
+.Box{
+    display: flex;
+    position:relative;
+    width: 44%;
+    height: 50px;
+    border-radius: 100px;
+    top: 0px;
+    justify-content: center;
+    background-color: #5F6368;
+}
+
+.circle{
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    position: absolute;
+    left: 437px;
+    top:5.3px;
+    transition: 0.3s;
+}
+.circle:hover{
+    background-color: #303239;
+}
+
+
+.plus{
+    height: 30px;
+    width: 30px;
+    
+}
+
+.content2{
+    display: flex;
+    position:absolute;
+    right: 450px;
+    top: 6px;
+    gap: 20px;
+
+}
+.ai-mode{
+    display: flex;
+    align-items: center;
+    width: 110px;
+    height: 40px;
+    justify-content: center;
+    border-radius: 60px;
+    gap: 10px;
+    border: none;
+    background-color: #777c83;
+    color: #E8E8E8;
+}
+.ai-mode:hover{
+    border: 1px solid black;
+}
+</style>
+<body>
+
+
+    <div class="navebar">
+            <div class="left">
+                <h5 id="add">About</h5>
+                <h5 id="add">Store</h5>
+            </div>
+            
+            
+                <div class="right">
+                    <h5 id="add">Gmail</h5>
+                    <h5 id="add">Images</h5>
+                        <div class="icon-container">
+                            <img class="icon" src="beaker.svg" alt="">
+                        </div>
+
+                    <div class="icon-container">
+                        <img class="icon" src="apps.svg" alt="">
+                    </div>
+                  <img class="icon profile" src="profile.jpg" alt="">
+                    
+                    
+                </div>
+            
+    </div>
+        <div class="one">
+
+            <div class="gif">
+                <img src="google.gif" alt="">
+            </div>
+            <div class="share">
+                <img class="icon share-icon" src="share.svg" alt="">
+            </div>
+            
+        </div>
+   <div class="two">
+    <input class="Box" type="text">
+    <div class="circle">
+        <img class="plus" src="plus.svg" alt="">
+    </div>
+    <div class="content2">
+        <img class="mic" src="mic.svg" alt="">
+        <img class="camera" src="camera.svg" alt="">
+        <button class="ai-mode"><img class="search" src="search.svg" alt="">Ai Mode</button>
+    </div>
+
+   </div>
+        
+</body>
+</html>
