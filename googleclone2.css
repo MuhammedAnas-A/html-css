@@ -1,0 +1,284 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    background-color:#22242A;
+    color:#E2E2E8;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.navebar{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px;
+}
+
+
+.left{
+    display: flex;
+    gap: 20px;
+    
+}
+
+.left h5{
+    font-weight:lighter;
+    font-size: medium;
+    cursor: pointer;
+    
+}
+
+
+.right{
+    display:flex;
+    align-items:center;
+    gap:20px;
+}
+
+.right h5{
+    display: flex;
+    font-weight: lighter;
+    font-size: medium;
+    cursor: pointer;
+
+}
+
+
+
+
+.gif{
+    /* width: 100%;
+    justify-content: center;
+    display: flex;
+    height: 250px; */
+    /* align-items: flex-end; */
+}
+
+
+.one{
+    display: flex;
+    align-items:end;
+    /* background-color: black; */
+    /* width:100% ; */
+    justify-content: center;
+}
+
+
+#add{
+    text-decoration: none;
+    transition-duration: 0.2s;
+}
+#add:hover{
+    text-decoration: underline;
+}
+
+.icon-container{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.icon-container:hover{
+    background-color: #3c4043;
+}
+
+.profile{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.profile:hover{
+    background-color: #4e5154;
+}
+
+.share{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: #2C2E35;
+}
+
+
+
+.search-bar{
+    width: 700px;
+    background-color: #373A40;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 200px;
+    margin-top: 20px;
+    
+}
+
+.search-bar1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 8px;
+    gap: 10px;
+    transition: 0.2s;
+    input{
+        width: 400px;
+        height: 50px;
+        outline: none;
+        border: none;
+        background-color: transparent;
+        color: #E8E8E8;
+    }
+
+}
+
+.plus{
+    width: 36px;
+    height: 36px;
+    border-radius: 50px;
+    background-color:#3c4043;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.plus:hover{
+    background-color:#4D5055;
+}
+
+.search-bar2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding-right: 10px;
+    button{
+        width: 120px;
+        height: 40px;
+        border-radius: 100px;
+        outline: none;
+        border: none;
+        padding-right: 10px;
+        background-color: #4D5055;
+        background: transparent;
+        transition: 0.2s;
+    }
+
+
+}
+.ai{
+    display:flex ;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    color: #E2E2E8;
+    cursor: pointer;
+    
+}
+
+button:hover{
+    background-color: #4e5154;
+}
+
+.g-buttons{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding-top: 30px;
+    width: 650px;
+    height: 68px;
+    transition: 0.2s;
+    
+    
+
+    button:nth-child(1){
+        display: flex;
+        font-weight:580;
+        align-items: center;
+        border-radius: 7px;
+        padding: 12px 25px;
+        color: #E8E8E8;
+        background-color: #303134;
+        cursor: pointer;
+        border: none;
+    }
+    button:nth-child(2){
+        display: flex;
+        font-weight:580;
+        align-items: center;
+        border-radius: 7px;
+        padding: 12px 25px;
+        color: #E8E8E8;
+        background-color: #303134;
+        cursor: pointer;
+        border: none;
+    }
+}
+
+.g-buttons button:hover{
+    border: 1px solid rgb(121, 121, 121);
+ }
+
+
+.g-footer{
+    background-color: #16171A;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.f1{
+    padding: 15px 30px;
+    border-bottom: 1px solid #3c3f40;
+}
+
+.text1{
+    color:#E8E8E8;
+    font-size: 15px;
+    font-weight: normal;
+    margin: 0;
+}
+
+.f2{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 20px;
+}
+
+.f2a{
+    display: flex;
+    gap: 10px;
+}
+
+.f2b{
+    display: flex;
+    gap: 10px;
+}
+
+h3.text2{
+    color: #E8E8E8;
+    font-size: 14px;
+    font-weight: normal;
+    margin: 0;
+    padding: 10px;
+    cursor: pointer;
+}
+
+
+h3.text2:hover{
+    text-decoration: underline;
+}
