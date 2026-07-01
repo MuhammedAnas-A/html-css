@@ -3,13 +3,20 @@
     padding: 0;
     margin: 0;
 }
-    .bg-img{
+.bg-img{
         object-fit:contain;
         width: 100%;
         height: 100%;    
     }
-    
+
+
+
+/* .body{
+} */
+
+
 .container{
+    overflow-x: hidden;
     display: flex;
     position: relative;
     flex-direction: column;
